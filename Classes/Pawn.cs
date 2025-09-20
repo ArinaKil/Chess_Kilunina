@@ -46,14 +46,14 @@ namespace Chess_Kilunina.Classes
             if (Select)
             {
                 if (Black)
-                    Figure.Background = new ImageBrush(new BitmapImage(new Uri(@"/Images/Pawn (black).png")));
+                    Figure.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Images/Pawn (black).png")));
                 else
-                    Figure.Background = new ImageBrush(new BitmapImage(new Uri(@"/Images/Pawn.png")));
+                    Figure.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Images/Pawn.png")));
                 Select = false;
             }
             else
             {
-                Figure.Background = new ImageBrush(new BitmapImage(new Uri(@"/Images/Pawn (select).png")));
+                Figure.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Images/Pawn (select).png")));
                 Select = true;
             }
         }
